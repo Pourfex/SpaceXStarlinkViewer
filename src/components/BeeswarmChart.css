@@ -1,0 +1,57 @@
+.beeswarm-container {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beeswarm-container svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.beeswarm-tooltip {
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid rgba(102, 126, 234, 0.5);
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.beeswarm-tooltip strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.beeswarm-tooltip span {
+  display: block;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.no-data-message {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  padding: 2rem;
+}
+
+.axis text {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.axis path,
+.axis line {
+  stroke: rgba(255, 255, 255, 0.2);
+}
+
