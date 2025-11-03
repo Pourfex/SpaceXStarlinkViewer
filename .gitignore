@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Web Components
+web-components/*/dist
+web-components/*/node_modules
+web-components/*/.angular
+web-components/*/package-lock.json
+
+# Built web component files are committed for ease of use
+# Uncomment the next line if you prefer to build them each time
+# public/*.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
